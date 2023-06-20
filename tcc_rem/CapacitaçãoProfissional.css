@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Kalam&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Kalam&family=Marck+Script&family=Pacifico&display=swap');
+
+body{
+    background-color:#71eac5;
+}
+.netflix2{
+    width: 120px;
+    width: 6.5vw;
+    height: 105px;
+    /* border-color: ; */
+    margin-right: 140px;
+    margin-left: 10px;
+    color:white;
+}
+
+#ponto{
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    color: black;
+    text-decoration: none; /*tira sublinhado do link*/
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Kalam', cursive;
+    color: black;
+    text-decoration: none;
+}
+h4{
+    color: black;
+    text-decoration: none; /*tira sublinhado do link*/
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Kalam', cursive;
+    color: black;
+    text-decoration: none;
+}
+h5 {
+    color: black;
+    text-decoration: none; /*tira sublinhado do link*/
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Kalam', cursive;
+    color: black;
+    text-decoration: none;
+    margin-left: 10ch;
+    margin-top: 10ch;
+}
+.icones{
+    display: inline-block;
+    margin-right: 11px;
+}
+#lupa{
+    margin-left: 100px;
+    /* width: 102px; largura */
+    /* height: 30px; altura */
+}
+.paginas{
+background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+
+.imagens{
+    width: 100%;
+}
+.imagens2{
+    display: inline-flex;
+}
+.background{
+    background-color:white;
+}
+.botaoicon{
+    color: rgb(189, 189, 189);
+    background-color:white;
+    border-color: transparent;
+    width: 15vw;
+}
+.botao1{
+    font-family: 'Marck Script', cursive;
+    color: #12aa7c;
+    text-align: center;
+    margin-right: 10px;
+    padding: 15px;
+    /* background-color: rgb(255, 245, 158); */
+    background-color:#12aa7c;
+    border-color:transparent;
+    width: 15vw;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background-color:#32bf94;
+}
+
+.botao2{
+    font-family: 'Marck Script', cursive;
+    color:#32bf94;
+    text-align: center;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: #32bf94;
+    border-color:transparent;
+    width: 15vw;
+    height: 12vh;
+    cursor: pointer;
+}
+.botao2:hover{
+    background-color: #51d5ad;
+}
+.botao3{
+    font-family: 'Marck Script', cursive;
+    color: #51d5ad;
+    text-align: center;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: #51d5ad;
+    border-color:transparent;
+    width: 15vw;
+    height: 12vh;
+    cursor: pointer;
+}
+.botao3:hover{
+    background-color: #71eac5;
+}
+.botao4{
+    font-family: 'Marck Script', cursive;
+    color: #71eac5;
+    text-align: center;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: #71eac5;
+    border-color:transparent;
+    width: 15vw;
+    height: 12vh;
+    cursor: pointer;
+}
+.botao4:hover{
+    background-color: #90ffdd;
+}
+.botao5{
+    font-family: 'Marck Script', cursive;
+    color: lightskyblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: transparent;
+    border-color:transparent;
+    width: 15vw;
+    height: 12vh;
+}
+
+
+#container {
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 10px;
+    right: 225px;
+    font-size: 40px;
+    color: black;
+    font-family: 'Marck Script';
+    font-size: 350%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Anderson{
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    text-align: left;   
+}
